@@ -15,7 +15,7 @@ export default class AccountRecordEditForm extends LightningElement {
     @track isEdit=false;
 
     handleSubmit(event) {
-        console.log('onsubmit event recordEditForm'+ event.detail.fields);
+        console.log('onsubmit event recordEditForm',event.detail.fields);
     }
     handleSuccess(event) {
         console.log('onsuccess event recordEditForm', event.detail.id);
